@@ -18,9 +18,8 @@ name = "bitcoincore_rpc"
 path = "src/lib.rs"
 
 [dependencies]
-bitcoin = { version = "0.20", features = [ "use-serde" ] }
-bitcoincore-rpc-json = { version = "0.8.0-rc1", path = "../json" }
-hex = "0.3"
+bitcoincore-rpc-json = { path = "../json" }
+
 log = "0.4.5"
 num-bigint = { version = "0.2", features = [ "serde" ] }
 serde = "1"
